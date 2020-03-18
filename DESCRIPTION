@@ -1,0 +1,21 @@
+Type: Compendium
+Package: Venn-v-UpSet
+Title: Compares Venn daigrams and UpSet Plots
+Version: 0.0.1
+Authors@R: 
+    person(given = "Rayna",
+           family = "Harris",
+           role = c("aut", "cre"),
+           email = "rmharris@ucdavis.edu",
+           comment = c(ORCID = "0000-0002-7943-5650"))
+Description: Venn versus UpSet
+License: CC-BY
+Depends: 
+    grid,
+    rJava,
+    rmarkdown,
+    tidyverse,
+    UpSetR,
+    venneuler
+Encoding: UTF-8
+LazyData: true

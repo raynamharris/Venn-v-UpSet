@@ -1,3 +1,6 @@
+[![Launch Rstudio
+Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raynamharris/Venn-v-UpSet/master?urlpath=rstudio)
+
 Please note that the full tutorial with context can be found on [this
 blog](https://www.littlemissdata.com/blog/set-analysis)
 
@@ -701,4 +704,3 @@ contains the summary statistics about the sets that we want to display.
     ## [45] ellipsis_0.3.0   xml2_1.2.2       reprex_0.3.0     lubridate_1.7.4 
     ## [49] rstudioapi_0.11  assertthat_0.2.1 rmarkdown_1.15   httr_1.4.1      
     ## [53] R6_2.4.1         nlme_3.1-140     compiler_3.6.0
-# Venn-v-UpSet

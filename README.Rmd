@@ -5,6 +5,10 @@ date: "3/18/2020"
 output: md_document
 ---
 
+
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raynamharris/Venn-v-UpSet/master?urlpath=rstudio)
+
+
 Please note that the full tutorial with context can be found on [this blog](https://www.littlemissdata.com/blog/set-analysis)
 
 Install and Load Packages
@@ -455,3 +459,14 @@ upset(sets, set.metadata = list(data = aggregate, plots = list(list(type = "hist
 ```{r}
 sessionInfo() 
 ```
+
+
+```{r include=F, echo=F}
+## Prep for binder
+library(holepunch)
+write_compendium_description(package = "Venn-v-UpSet", 
+                             description = "Venn versus UpSet")
+write_dockerfile(maintainer = "rayna_harris") 
+generate_badge()
+```
+
